@@ -241,6 +241,8 @@ Each provider's own documentation is the authority on its endpoints:
 - **Maestro**: [docs.gomaestro.org](https://docs.gomaestro.org/cardano), covering the indexer plus transaction-management extras
 - **Nexus**: [nexus.gerowallet.io/docs](https://nexus.gerowallet.io/docs), covering Cardano, Bitcoin, and Midnight plus market data; a typed client is published as [`@adlabs/nexus`](https://www.npmjs.com/package/@adlabs/nexus)
 
+These four are worked examples, not an exhaustive list. The [Chain.Love Cardano API directory](https://cardano.chain.love/toolbox/apis) lists additional hosted API and RPC offerings with links to their provider documentation. Use it to find candidates, then verify network support, endpoint methods, limits, and current pricing with each provider before integrating.
+
 ## The same APIs, self-hosted
 
 Two of the four are open source end to end, so outgrowing a hosted tier does not mean leaving the API behind:
